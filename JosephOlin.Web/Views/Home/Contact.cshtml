@@ -1,10 +1,11 @@
-﻿
+﻿@model JosephOlin.Web.Models.Person
 @{
     ViewBag.Title = "Contact Me";
 }
 
 <div class="text-center bg-primary">
     <h2>Contact Information</h2>
-    <p>Phone: </p>
-    <p>Email: </p>
+    <p>Phone: @Model.Phone</p>
+    
+    <p>Email: @Model.Email</p>
 </div>
