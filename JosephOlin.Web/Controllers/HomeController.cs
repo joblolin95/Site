@@ -13,7 +13,8 @@ namespace JosephOlin.Web.Controllers
         {
             Name = "Joseph Olin",
             Email = "jbo@user.com",
-            Phone = "123-456-7890"
+            Phone = "123-456-7890",
+            Employer = "Zirmed"
         };
         
         // GET: Home
