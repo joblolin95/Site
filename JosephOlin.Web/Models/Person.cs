@@ -11,6 +11,6 @@ namespace JosephOlin.Web.Models
         public string Email { get; set; }
         public string Phone { get; set; }
         public string Employer { get; set; }
-        
+        public string Position { get; set; }
     }
 }
