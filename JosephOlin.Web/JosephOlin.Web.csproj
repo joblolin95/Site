@@ -173,6 +173,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\NavBar.cshtml" />
+    <Content Include="Views\Home\Footer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

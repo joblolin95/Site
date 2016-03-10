@@ -14,7 +14,7 @@ namespace JosephOlin.Web.Controllers
             Name = "Joseph Olin",
             Email = "jbo@user.com",
             Phone = "123-456-7890",
-            Employer = "Zirmed",
+            Employer = "ZirMed",
             Position = "IT Intern"
         };
         
