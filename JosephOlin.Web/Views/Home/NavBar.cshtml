@@ -16,7 +16,23 @@
                                         new { @class = "navbar-brand text-uppercase" })</em>
             </div>*@
         </div>
-        <ul class="nav navbar-nav nav-pills navbar-right">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index")"><button type="button" class="btn navbar-btn btn-info">About</button></a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index")"><button type="button" class="btn navbar-btn btn-info">Resume</button></a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Contact")"><button type="button" class="btn navbar-btn btn-info">Contact</button></a>
+                </li>
+            </ul>
+        </div>
+        @*<ul class="nav navbar-nav nav-pills navbar-right">
             <li>
                 <a href="@Url.Action("Index")" ><button type="button" class="btn navbar-btn btn-info">About</button></a>
             </li>
@@ -26,6 +42,6 @@
             <li>
                 <a href="@Url.Action("Contact")"><button type="button" class="btn navbar-btn btn-info">Contact</button></a>
             </li>
-        </ul>
+        </ul>*@
     </div>
 </nav>
