@@ -1,6 +1,6 @@
 ﻿@model JosephOlin.Web.Models.Person
 
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="height:80px;">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -12,7 +12,7 @@
             <div class="navbar-brand text-uppercase">
                 @Html.ActionLink(Model.Name, "Index", "Home", null,
                                         new { @class = "navbar-brand text-uppercase",
-                                              @style ="font-family:'Yesteryear', 'Carme', sans-serif;" })
+                                            @style ="font-family:'Yesteryear', 'Carme', sans-serif; font-size:25px;" })
             </div>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -21,13 +21,13 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a href="@Url.Action("Index")"><button type="button" class="btn navbar-btn btn-info">About</button></a>
+                    <a href="@Url.Action("Index")"><button type="button" class="btn navbar-btn btn-lg btn-info">About</button></a>
                 </li>
                 <li>
-                    <a href="@Url.Action("Index")"><button type="button" class="btn navbar-btn btn-info">Resume</button></a>
+                    <a href="@Url.Action("Index")"><button type="button" class="btn navbar-btn btn-lg btn-info">Resume</button></a>
                 </li>
                 <li>
-                    <a href="@Url.Action("Contact")"><button type="button" class="btn navbar-btn btn-info">Contact</button></a>
+                    <a href="@Url.Action("Contact")"><button type="button" class="btn navbar-btn btn-lg btn-info">Contact</button></a>
                 </li>
             </ul>
         </div>
