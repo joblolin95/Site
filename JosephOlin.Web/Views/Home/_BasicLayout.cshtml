@@ -5,10 +5,23 @@
     <meta name="viewport" content="width=device-width" />
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Carme' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
     
+    <style>
+        #content {
+            font-family: 'Carme', sans-serif;
+            font-size: 20px;
+            padding-top:90px;
+        }
+        #linkStyle {
+            color: white;
+        }
+    </style>
+
     <title>@ViewBag.Title</title>
 </head>
-<body class="bg-primary" style="padding-top:90px;">
+<body class="bg-primary" id="content" >
      
         @Html.Partial("NavBar")
         @Html.Partial("JumboNav")
