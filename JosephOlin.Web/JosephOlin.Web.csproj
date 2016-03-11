@@ -175,6 +175,7 @@
     <Content Include="Views\Home\NavBar.cshtml" />
     <Content Include="Views\Home\Footer.cshtml" />
     <Content Include="Views\Home\JumboNav.cshtml" />
+    <Content Include="Content\Joseph Olin resume.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
