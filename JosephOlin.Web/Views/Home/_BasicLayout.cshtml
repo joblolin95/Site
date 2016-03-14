@@ -1,14 +1,15 @@
-﻿<!DOCTYPE html>
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
 
 <html>
 <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link href="~/Content/bootstrap.css" rel="stylesheet" />
-    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Carme' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    
+    @Styles.Render("~/bundles/bootstrapcss")
+    @Styles.Render("~/bundles/fontawesomecss")
+    @Styles.Render("~/bundles/carme")
+    @Styles.Render("~/bundles/yesteryear")
+
     <style>
         #content {
             font-family: 'Carme', sans-serif;
@@ -20,8 +21,10 @@
         }
     </style>
 
-    <title>@ViewBag.Title</title>
+    <title>@ViewBag.Title</title>   
+
 </head>
+
 <body class="bg-primary" id="content" >
      
         @Html.Partial("NavBar")
