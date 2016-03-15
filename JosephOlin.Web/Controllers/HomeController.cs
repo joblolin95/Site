@@ -15,7 +15,9 @@ namespace JosephOlin.Web.Controllers
             Email = "jbo@user.com",
             Phone = "123-456-7890",
             Employer = "ZirMed, Inc",
-            Position = "IT Intern"
+            Position = "IT Intern",
+            University = "Indiana University Southeast",
+            Major = "Computer Science"            
         };
         
         // GET: Home

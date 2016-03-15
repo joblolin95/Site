@@ -12,5 +12,7 @@ namespace JosephOlin.Web.Models
         public string Phone { get; set; }
         public string Employer { get; set; }
         public string Position { get; set; }
+        public string University { get; set; }
+        public string Major { get; set; }
     }
 }

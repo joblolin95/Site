@@ -19,10 +19,10 @@
 }
 
 .jumbonav {
-    background: url(/Content/Pics/postcard.JPG);
+    background: url(/Content/Pics/sunset.jpg);
     background-size:cover; 
     background-repeat:no-repeat;
-    height:550px;
+    height:700px;
 }
 
 .linkStyle {
