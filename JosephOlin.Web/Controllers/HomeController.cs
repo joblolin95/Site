@@ -31,5 +31,10 @@ namespace JosephOlin.Web.Controllers
         {
             return View(p);
         }
+
+        public FileResult DisplayResume()
+        {
+            return File("~/Content/Joseph Olin resume.pdf", "application/pdf");
+        }
     }
 }
