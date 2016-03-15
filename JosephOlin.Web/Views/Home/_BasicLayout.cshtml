@@ -9,24 +9,12 @@
     @Styles.Render("~/bundles/fontawesomecss")
     @Styles.Render("~/bundles/carme")
     @Styles.Render("~/bundles/yesteryear")
-
-    <style>
-        #content {
-            font-family: 'Carme', sans-serif;
-            font-size: 20px;
-            padding-top:70px;
-        }
-        #linkStyle {
-            color: white;
-        }
-    </style>
+    @Styles.Render("~/bundles/commoncss")
 
     <title>@ViewBag.Title</title>   
-
 </head>
 
-<body class="bg-primary" id="content" >
-     
+<body class="bg-primary content">
         @Html.Partial("NavBar")
         @Html.Partial("JumboNav")
         @RenderBody()

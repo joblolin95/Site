@@ -18,11 +18,10 @@ namespace JosephOlin.Web
             bundles.Add(new StyleBundle("~/bundles/fontawesomecss", "//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
                 .Include("~/Content/font-awesome-4.5.0/css/font-awesome.css")
                 );
-            
-            //bundles.Add(new StyleBundle("~/bundles/commoncss")
-            //    .Include("~/Content/professional.css", new CssRewriteUrlTransform())
-            //    .Include("~/fonts/googleFonts.css")
-            //    );
+
+            bundles.Add(new StyleBundle("~/bundles/commoncss")
+                .Include("~/Content/styles.css")
+                );
 
             bundles.Add(new StyleBundle("~/bundles/carme", "//fonts.googleapis.com/css?family=Carme")
                .Include("~/Content/Fonts/carme.css"));

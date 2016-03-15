@@ -1,6 +1,6 @@
 ﻿@model JosephOlin.Web.Models.Person
 
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="height:80px;">
+<nav class="navbar navbar-inverse navbar-fixed-top nav-height" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="nav-collapse-1" aria-expanded="false">
@@ -12,7 +12,8 @@
                 @Html.ActionLink(Model.Name, "Index", "Home", null,
                                         new {
                                             @class = "navbar-brand txt-lg",
-                                            @style = "font-family:'Yesteryear', 'Carme', sans-serif; font-size:30px; margin-top: 15px;"
+                                            @style = "font-family:'Yesteryear', 'Carme', sans-serif;" + 
+                                                     "font-size:30px; margin-top: 15px;"
                                         })            
         </div>
         <div class="collapse navbar-collapse" id="nav-collapse-1">

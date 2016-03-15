@@ -1,2 +1,42 @@
-﻿body {
+﻿.content {
+    font-family: 'Carme', sans-serif;
+    font-size: 20px;
+    padding-top:70px;
+}
+
+.copyright {
+    color: black;
+}
+
+.footer-container {
+    background-color: white; 
+    padding: 20px; 
+    margin-top:30px;
+}
+
+.jumbo-margin {
+    margin-top:120px;
+}
+
+.jumbonav {
+    background: url(/Content/Pics/postcard.JPG);
+    background-size:cover; 
+    background-repeat:no-repeat;
+    height:550px;
+}
+
+.linkStyle {
+    color: white;
+}
+
+#nav-height {
+    height:80px;
+}
+
+.welcome-brand {
+    font-family:'Yesteryear', 'Carme', sans-serif;
+}
+
+.welcome-message {
+    font-size:25px;
 }
