@@ -140,8 +140,6 @@
     <Content Include="Content\font-awesome-4.5.0\css\font-awesome.min.css" />
     <Content Include="Content\font-awesome-4.5.0\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\font-awesome-4.5.0\HELP-US-OUT.txt" />
-    <Content Include="Content\Pics\postcard2.jpg" />
-    <Content Include="Content\Pics\postcard3.JPG" />
     <Content Include="Content\styles.css" />
     <Content Include="Content\Fonts\carme.css" />
     <Content Include="Content\Fonts\yesteryear.css" />
