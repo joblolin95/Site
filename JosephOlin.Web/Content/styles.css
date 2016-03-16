@@ -29,7 +29,11 @@
     color: white;
 }
 
-#nav-height {
+.linkStyle:hover {
+    color:white;
+}
+
+.nav-height {
     height:80px;
 }
 
