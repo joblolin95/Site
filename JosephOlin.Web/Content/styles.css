@@ -8,6 +8,10 @@
     color: black;
 }
 
+.content-container {
+    width:700px;
+}
+
 .footer-container {
     background-color: white; 
     padding: 20px; 
