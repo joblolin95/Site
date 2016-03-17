@@ -9,7 +9,7 @@ namespace JosephOlin.Web.Controllers
 {
     public class HomeController : Controller
     {
-        Person p = new Person
+        Person owner = new Person
         {
             Name = "Joseph Olin",
             Email = "jbo@user.com",
@@ -23,13 +23,13 @@ namespace JosephOlin.Web.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View(p);
+            return View(owner);
 
         }
 
         public ActionResult Contact()
         {
-            return View(p);
+            return View(owner);
         }
 
         public FileResult DisplayResume()
