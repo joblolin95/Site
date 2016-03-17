@@ -169,6 +169,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -182,9 +183,9 @@
     <Content Include="Scripts\jquery-2.2.1.min.map" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\NavBar.cshtml" />
-    <Content Include="Views\Home\Footer.cshtml" />
-    <Content Include="Views\Home\JumboNav.cshtml" />
+    <Content Include="Views\Shared\NavBar.cshtml" />
+    <Content Include="Views\Shared\Footer.cshtml" />
+    <Content Include="Views\Shared\JumboNav.cshtml" />
     <Content Include="Content\Joseph Olin resume.pdf" />
     <Content Include="Content\Icons\glyphicons-halflings-regular.eot" />
     <Content Include="Content\Icons\glyphicons-halflings-regular.ttf" />
@@ -221,6 +222,7 @@
     <Content Include="Content\font-awesome-4.5.0\scss\_rotated-flipped.scss" />
     <Content Include="Content\font-awesome-4.5.0\scss\_stacked.scss" />
     <Content Include="Content\font-awesome-4.5.0\scss\_variables.scss" />
+    <Content Include="Views\Error\NotFound.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
