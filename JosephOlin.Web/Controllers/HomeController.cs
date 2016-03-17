@@ -24,7 +24,6 @@ namespace JosephOlin.Web.Controllers
         public ActionResult Index()
         {
             return View(owner);
-
         }
 
         public ActionResult Contact()
