@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Page Not Found";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+    @Styles.Render("~/bundles/bootstrapcss")
+    @Styles.Render("~/bundles/fontawesomecss")
+    @Styles.Render("~/bundles/carme")
+    @Styles.Render("~/bundles/yesteryear")
+    @Styles.Render("~/bundles/commoncss")
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>NotFound</title>
+</head>
+<body class="bg-primary content text-center">
+    <div>
+        <h1>Oops!</h1>
+        <h2>404</h2>
+        <small>The page you were seeking could not be found. Why don't you try my homepage?</small> 
+        <br />
+        <a href="@Url.Action("Index", "Home")"><button type="button" class="btn navbar-btn btn-lg btn-info">Home</button></a>
+    </div>
+
+    @Scripts.Render("~/bundles/jqueryjs")
+    @Scripts.Render("~/bundles/bootstrapjs")
+</body>
+</html>
