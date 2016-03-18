@@ -1,0 +1,27 @@
+﻿@model JosephOlin.Web.Models.Person
+@{
+    ViewBag.Title = "Joseph Olin's Site";
+}
+<!--Use Bootstrap's row and col classes to center the content on the page-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h2 class="text-uppercase">About</h2>
+                <p>
+                    Hi! My name is @Model.Name and I am an @Model.Position at @Model.Employer. I work with a team of interns
+                    in the Architecture group to develop software that can be used within @Model.Employer.
+                </p>
+                <br />
+                <p>
+                    Apart from that, I am also a student at @Model.University, majoring in @Model.Major. I plan to graduate in May 2018
+                    with a Bachelor of Science degree in @Model.Major.
+                </p>
+                <br />
+                <a href="@Url.Action("DisplayResume")" target="_blank">
+                    <span class="btn navbar-btn btn-xlg btn-info buttonLink">Resume</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

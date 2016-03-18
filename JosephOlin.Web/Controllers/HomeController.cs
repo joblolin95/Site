@@ -24,5 +24,11 @@ namespace JosephOlin.Web.Controllers
         {
             return File("~/Content/Joseph Olin resume.pdf", "application/pdf");
         }
+
+        //Test how 500 errors are handled by throwing an exception
+        public Exception TestException()
+        {
+            throw new Exception();
+        }
     }
 }

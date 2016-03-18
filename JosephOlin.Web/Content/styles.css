@@ -2,20 +2,47 @@
     padding-top:15px;
 }
 
+.contact-container {
+    background-color: white;
+    margin-top: 100px;
+    /*margin-bottom: 0px;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-title {
+    max-width: 5%; 
+    border-color: #337ab7; 
+    border-width:2px;
+}
+
 .content {
     font-family: 'Carme', sans-serif;
     font-size: 20px;
     padding-top:70px;
+    margin-bottom: 80px;
 }
 
 .copyright {
-    color: black;
+    color: white;
 }
 
 .footer-container {
-    background-color: white; 
+    background-color:#337ab7; 
     padding: 20px; 
-    margin-top:30px;
+    margin-top: 50px;    
+}
+
+.icon-color {
+    color:white;
+}
+
+.icon-color:hover {
+    color:	#F8F8F8 ;
+}
+
+.icon-color:visited {
+    color:white;
 }
 
 .jumbo-margin {
@@ -30,12 +57,12 @@
     margin-top: -10px;
 }
 
-.linkStyle {
-    color: white;
+.buttonLink {
+    background-color:#5bc0de;
 }
 
-.linkStyle:hover {
-    color:white;
+.linkStyle:visited {
+    text-decoration:none;
 }
 
 .nav-height {
