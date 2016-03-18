@@ -7,19 +7,8 @@ using JosephOlin.Web.Models;
 
 namespace JosephOlin.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
-        Person owner = new Person
-        {
-            Name = "Joseph Olin",
-            Email = "jbo@user.com",
-            Phone = "123-456-7890",
-            Employer = "ZirMed, Inc",
-            Position = "IT Intern",
-            University = "Indiana University Southeast",
-            Major = "Computer Science"            
-        };
-        
         // GET: Home
         public ActionResult Index()
         {

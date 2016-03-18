@@ -7,25 +7,16 @@ using JosephOlin.Web.Models;
 
 namespace JosephOlin.Web.Controllers
 {
-    public class ErrorController : Controller
+    public class ErrorController : BaseController
     {       
         // GET: Error
         public ActionResult NotFound()
         {
             Response.StatusCode = 404;
-            
-            //Creating another Person object is temporary
-            // A different implementation will eventually be followed.
-            return View(
-                new Person {
-                    Name = "Joseph Olin",
-                    Email = "jbo@user.com",
-                    Phone = "123-456-7890",
-                    Employer = "ZirMed, Inc",
-                    Position = "IT Intern",
-                    University = "Indiana University Southeast",
-                    Major = "Computer Science"
-                });
+            // pass the Person object from the BaseController 
+            // into the View so the NavBar, Footer, etc. can use
+            // the Person object
+            return View(owner);
         }
     }
 }
