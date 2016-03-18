@@ -1,31 +1,17 @@
-﻿
+﻿@model JosephOlin.Web.Models.Person
 @{
     ViewBag.Title = "Page Not Found";
-    Layout = null;
+    Layout = "~/Views/Home/_BasicLayout.cshtml";
 }
 
-<!DOCTYPE html>
-    @Styles.Render("~/bundles/bootstrapcss")
-    @Styles.Render("~/bundles/fontawesomecss")
-    @Styles.Render("~/bundles/carme")
-    @Styles.Render("~/bundles/yesteryear")
-    @Styles.Render("~/bundles/commoncss")
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>NotFound</title>
-</head>
- <!--Error message-->
-<body class="bg-primary content text-center">
-    <div>
-        <h1>Oops!</h1>
-        <h2>404</h2>
-        <small>The page you were seeking could not be found. Why don't you try my homepage?</small> 
-        <br />
-        <a href="@Url.Action("Index", "Home")"><span class="btn navbar-btn btn-lg btn-info">Home</span></a>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+            <h1>Oops!</h1>
+            <h2>404</h2>
+            <small>The page you were seeking could not be found. Why don't you try my homepage?</small>
+            <br />
+            <a href="@Url.Action("Index", "Home")"><span class="btn navbar-btn btn-lg btn-info">Home</span></a>
+        </div>
     </div>
-
-    @Scripts.Render("~/bundles/jqueryjs")
-    @Scripts.Render("~/bundles/bootstrapjs")
-</body>
-</html>
+</div>
