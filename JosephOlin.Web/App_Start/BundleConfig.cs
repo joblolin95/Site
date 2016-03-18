@@ -36,7 +36,11 @@ namespace JosephOlin.Web
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrapjs", "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
                 .Include("~/Scripts/bootstrap.js")
-                );            
+                );
+
+            bundles.Add(new ScriptBundle("~/bundles/googleanalytics")
+                .Include("~/Scripts/googleAnalytics.js")
+                );    
         }
     }
 }
