@@ -1,11 +1,14 @@
-﻿.button-margin {
+﻿.buttonLink {
+    background-color:#5bc0de;
+}
+
+.button-margin {
     padding-top:15px;
 }
 
 .contact-container {
     background-color: white;
     margin-top: 100px;
-    /*margin-bottom: 0px;*/
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -55,10 +58,6 @@
     background-repeat:no-repeat;
     height:700px;
     margin-top: -10px;
-}
-
-.buttonLink {
-    background-color:#5bc0de;
 }
 
 .linkStyle:visited {

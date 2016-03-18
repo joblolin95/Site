@@ -11,12 +11,8 @@
                 <span class="icon-bar"></span>
             </button>
             <!--Navbar brand-->
-               @Html.ActionLink(Model.Name, "Index", "Home", null,
-                                        new {
-                                            @class = "navbar-brand",
-                                            @style = "font-family:'Yesteryear', 'Carme', sans-serif;" + 
-                                                     "font-size:30px; margin-top: 15px;"
-                                        })            
+            <a href="#page-top" class="navbar-brand" style ="font-family:'Yesteryear', 'Carme', sans-serif;
+                                                     font-size:30px; margin-top: 20px;" role="button">@Model.Name</a>             
         </div>
         <!--Create the navigational buttons on the right side of the navbar-->
         <div class="collapse navbar-collapse" id="nav-collapse-1">
@@ -24,10 +20,6 @@
                 <li>
                     <a href="#about"><span class="btn navbar-btn btn-lg btn-info">About</span></a>
                 </li>
-                @*<li>
-                    <a href="@Url.Action("DisplayResume")" target="_blank"><span 
-                       class="btn navbar-btn btn-lg btn-info">Resume</span></a>
-                </li>*@
                 <li>
                     <a href="#content"><span class="btn navbar-btn btn-lg btn-info">Contact</span></a>
                 </li>
