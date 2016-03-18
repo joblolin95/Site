@@ -9,7 +9,7 @@ namespace JosephOlin.Web.Controllers
     public class ErrorController : Controller
     {       
         // GET: Error
-        public ViewResult NotFound()
+        public ActionResult NotFound()
         {
             Response.StatusCode = 404;
             return View();
