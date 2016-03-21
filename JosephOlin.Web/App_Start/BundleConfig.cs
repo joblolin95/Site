@@ -35,7 +35,7 @@ namespace JosephOlin.Web
                 );
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryeasing", "//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
-                .Include("~/Scripts/jqueryeasing.js")
+                .Include("~/Scripts/jquery.easing.js")
                 );
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrapjs", "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
@@ -44,7 +44,10 @@ namespace JosephOlin.Web
 
             bundles.Add(new ScriptBundle("~/bundles/googleanalytics")
                 .Include("~/Scripts/googleAnalytics.js")
-                );    
+                );
+
+            bundles.Add(new ScriptBundle("~/bundles/commonjs")
+                .Include("~/Scripts/commonjs.js"));
         }
     }
 }
