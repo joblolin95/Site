@@ -12,11 +12,3 @@
 $('.navbar-collapse ul li a').click(function () {
     $('.navbar-toggle:visible').click();
 });
-
-//This is currently toggling the responsive menu
-// when the navbar-brand is clicked
-$('.navbar-brand').click(function () {
-    if ($('.navbar-toggle').is(':visible') === true) {
-        $('.navbar-toggle:visible').click();
-    }
-});
