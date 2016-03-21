@@ -1,4 +1,12 @@
-﻿.buttonLink {
+﻿.btn-xlg {
+    padding: 20px 28px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 50px;
+}  
+
+
+.buttonLink {
     background-color:#5bc0de;
 }
 
