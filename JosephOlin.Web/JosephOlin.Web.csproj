@@ -149,6 +149,9 @@
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\Icons\glyphicons-halflings-regular.svg" />
     <Content Include="Scripts\googleAnalytics.js" />
+    <Content Include="Scripts\jquery.easing.compatibility.js" />
+    <Content Include="Scripts\jquery.easing.js" />
+    <Content Include="Scripts\jquery.easing.min.js" />
     <Content Include="Scripts\npm.js" />
     <Content Include="Content\Pics\postcard.JPG" />
     <Content Include="Content\Pics\self.JPG" />

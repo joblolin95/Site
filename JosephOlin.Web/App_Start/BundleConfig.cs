@@ -34,6 +34,10 @@ namespace JosephOlin.Web
                 .Include("~/Scripts/jquery-2.2.1.js")
                 );
 
+            bundles.Add(new ScriptBundle("~/bundles/jqueryeasing", "//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
+                .Include("~/Scripts/jqueryeasing.js")
+                );
+
             bundles.Add(new ScriptBundle("~/bundles/bootstrapjs", "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
                 .Include("~/Scripts/bootstrap.js")
                 );
