@@ -12,8 +12,8 @@ namespace JosephOlin.Web.Controllers
         protected Person owner = new Person
         {
             Name = "Joseph Olin",
-            Email = "jbo@user.com",
-            Phone = "123-456-7890",
+            Email = "joblolin@gmail.com",
+            Phone = "(812) 736-3314",
             Employer = "ZirMed, Inc",
             Position = "IT Intern",
             University = "Indiana University Southeast",
