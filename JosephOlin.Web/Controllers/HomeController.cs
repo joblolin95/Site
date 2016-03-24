@@ -22,7 +22,7 @@ namespace JosephOlin.Web.Controllers
 
         public FileResult DisplayResume()
         {
-            return File("~/Content/Joseph.Olin.resume.pdf", "application/pdf");
+            return File("~/Content/Resume.pdf", "application/pdf");
         }
 
         //Test how 500 errors are handled by throwing an exception

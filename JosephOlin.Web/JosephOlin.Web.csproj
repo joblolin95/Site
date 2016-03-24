@@ -231,7 +231,7 @@
     <Content Include="Views\Home\_Contact.cshtml" />
     <Content Include="Views\Home\_About.cshtml" />
     <Content Include="Views\Home\_Resume.cshtml" />
-    <Content Include="Content\Joseph.Olin.Resume.pdf" />
+    <Content Include="Content\Resume.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
