@@ -23,7 +23,7 @@
                     with a Bachelor of Science degree in @Model.Major.
                 </p>
                 <br />
-                <a href="@Url.Action("DisplayResume")" target="_blank" id ="#resume" >
+                <a href="@Url.Action("DisplayResume")" target="_blank" onclick ="ga('send', 'event', 'Files', 'click', 'Resume');" >
                     <span class="btn navbar-btn btn-xlg btn-info buttonLink">Resume</span>
                 </a>
             </div>
