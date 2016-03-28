@@ -13,6 +13,6 @@ $('.navbar-collapse ul li a').click(function () {
     $('.navbar-toggle:visible').click();
 });
 
-$('#resume').click(function () {
-    ga('send', 'event', 'Files', 'click', 'Resume');
-});
+function sendToAnalytics(command, hitType, eventCategory, eventAction, eventLabel) {
+    ga(command, hitType, eventCategory, eventAction, eventLabel);
+}

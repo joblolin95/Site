@@ -48,6 +48,10 @@ namespace JosephOlin.Web
 
             bundles.Add(new ScriptBundle("~/bundles/commonjs")
                 .Include("~/Scripts/commonjs.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/aboutjs")
+                .Include("~/Scripts/about.js")
+                );
         }
     }
 }
