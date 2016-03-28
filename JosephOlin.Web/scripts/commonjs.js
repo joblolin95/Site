@@ -12,3 +12,7 @@
 $('.navbar-collapse ul li a').click(function () {
     $('.navbar-toggle:visible').click();
 });
+
+$('#resume').click(function () {
+    ga('send', 'event', 'Files', 'click', 'Resume');
+});
