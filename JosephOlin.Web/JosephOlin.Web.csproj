@@ -189,10 +189,8 @@
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.2.1.min.map" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
-    <Content Include="Views\Shared\_JumboNav.cshtml" />
     <Content Include="Content\Icons\glyphicons-halflings-regular.eot" />
     <Content Include="Content\Icons\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\Icons\glyphicons-halflings-regular.woff" />
@@ -232,7 +230,7 @@
     <Content Include="Views\Home\_Contact.cshtml" />
     <Content Include="Views\Home\_About.cshtml" />
     <Content Include="Views\Home\_Resume.cshtml" />
-    <Content Include="Content\Resume.pdf" />
+    <Content Include="Content\Pics\Resume.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
